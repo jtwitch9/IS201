@@ -9,6 +9,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
@@ -37,6 +38,10 @@
         .links a:hover {
             background-color: #555;
         }
+        .text{
+            text-align:center;
+            margin-bottom: 20px; 
+        }
         canvas {
             border: 1px solid #fff;
             background-color: #228B22;
@@ -60,7 +65,7 @@
                 <a  href="#">Game</a></li>
         </ul>
     </div>
-    <div class="text-area">
+    <div class="text">
         <h1>Welcome to Snake!</h1>
         <p>Use the arrow keys to control the snake. Try to collect the food and avoid collisions!</p>
     </div> 
