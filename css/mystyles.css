@@ -6,10 +6,12 @@ At least three divs for positioning and styling blocks of content in the HTML pa
 
 
 .images{
+    display:flex
     flex-direction:column;
     position: absolute;
-    align-items: right;
-    width:200px;
+    align-items:flex-end;
+    right:25px
+    width:300px;
     
 }
 .links{
